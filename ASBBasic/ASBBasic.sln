@@ -7,11 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASBQueueExample", "ASBQueue
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basic", "Basic", "{6099D1E3-96A3-41B9-8EFA-57989FC4B098}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleBrokeredMessaging.ChatConsole", "..\SimpleBrokeredMessaging\SimpleBrokeredMessaging.ChatConsole\SimpleBrokeredMessaging.ChatConsole.csproj", "{1FB753FA-A1CB-49C6-A41E-AB003F493183}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleBrokeredMessaging.ChatConsole", "..\SimpleBrokeredMessaging\SimpleBrokeredMessaging.ChatConsole\SimpleBrokeredMessaging.ChatConsole.csproj", "{1FB753FA-A1CB-49C6-A41E-AB003F493183}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleBrokeredMessaging.Sender", "..\SimpleBrokeredMessaging\SimpleBrokeredMessaging.Sender\SimpleBrokeredMessaging.Sender.csproj", "{AFA606ED-F07F-4CE6-B7AD-EBD9D30231DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleBrokeredMessaging.Sender", "..\SimpleBrokeredMessaging\SimpleBrokeredMessaging.Sender\SimpleBrokeredMessaging.Sender.csproj", "{AFA606ED-F07F-4CE6-B7AD-EBD9D30231DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleBrokeredMessaging.Receiver", "..\SimpleBrokeredMessaging\SimpleBrokeredMessaging.Receiver\SimpleBrokeredMessaging.Receiver.csproj", "{7B04B149-F954-4985-A0F1-3D3A948D3848}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleBrokeredMessaging.Receiver", "..\SimpleBrokeredMessaging\SimpleBrokeredMessaging.Receiver\SimpleBrokeredMessaging.Receiver.csproj", "{7B04B149-F954-4985-A0F1-3D3A948D3848}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBusManagementConsole", "..\SimpleBrokeredMessaging\ServiceBusManagementConsole\ServiceBusManagementConsole.csproj", "{97319D5A-0B9E-4466-B4BB-6ECC349623F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{7B04B149-F954-4985-A0F1-3D3A948D3848}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B04B149-F954-4985-A0F1-3D3A948D3848}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B04B149-F954-4985-A0F1-3D3A948D3848}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97319D5A-0B9E-4466-B4BB-6ECC349623F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97319D5A-0B9E-4466-B4BB-6ECC349623F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97319D5A-0B9E-4466-B4BB-6ECC349623F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97319D5A-0B9E-4466-B4BB-6ECC349623F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
