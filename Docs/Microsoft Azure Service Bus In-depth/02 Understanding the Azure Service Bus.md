@@ -25,4 +25,6 @@
     - Very cost-effective
     - Limited functionality
 
+## Asynchronous Messaging Scenarios
+
 
